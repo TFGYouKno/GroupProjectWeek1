@@ -71,10 +71,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10%;
 }
 
 h1 {
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .signin_pg_icons {
@@ -110,7 +116,8 @@ h1 {
 .signin_pg_socials {
     display: flex;
     justify-content: space-evenly;
-    width: 300px;
+    width: 350px;
+    margin-top: 20px;
 }
 
 .signin_pg_social_icons {
@@ -123,6 +130,17 @@ h1 {
     align-items: center;
 }
 
-bi bi-linkedin {
+.bi_bi_facebook, .bi_bi_twitter,
+.bi_bi_google, .bi_bi_linkedin {
     border-radius: 50%;
+}
+
+.input_spacing {
+    margin: 20px 0px;
+}
+
+.signin_pg_social_links {
+    color: black;
+    position: relative;
+    top: 2px;
 }
