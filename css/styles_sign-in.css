@@ -64,32 +64,65 @@
 
 .signin_pg_right_grid_item { 
     grid-area: signin_pg_right_grid_item; 
-    background-color: aquamarine;
 }
 
 .signin_pg_form_container {
-    background-color: brown;
     width: 400px;
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 }
 
 h1 {
     text-align: center;
-    background-color: aqua;
 }
 
 .signin_pg_icons {
     position: relative;
-    left: 60px;
+    left: 35px;
     top: 3px;
 }
 
 .signin_pg_inputs {
-    width: 70%;
+    width: 300px;
     height: 40px;
     border-radius: 50px;
     border: 1px solid rgb(181, 181, 181);
-    margin-left: 25px;
+}
+
+.signin_pg_signin_button {
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #0314FE;
+    color: white;
+    border: 2px solid #0314FE;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.signin_pg_right_txt {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.signin_pg_socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.signin_pg_social_icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+bi bi-linkedin {
+    border-radius: 50%;
 }
