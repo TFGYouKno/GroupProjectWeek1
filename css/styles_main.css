@@ -61,3 +61,48 @@ body{
 .fourcard-container{
     justify-content:center;
 }
+
+.btnGet{
+    background-color: rgb(166, 222, 23);
+    font-weight: bold;
+}
+
+.btnChat {
+    color: #0314FE;
+    font-weight: bold;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .btnLearn{
+    display: inline-block;
+    color: white;
+    border-color: white;
+    width: 200px;
+    text-align: center;
+    position: relative;
+ }
+
+ .btnLearn2{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative;
+ }
+ .button-symbol {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+  }
+
+  /* button with the symbol on the right */
+  .btnGet{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    position: relative; 
+ }
