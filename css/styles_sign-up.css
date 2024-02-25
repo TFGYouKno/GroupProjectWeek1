@@ -1,0 +1,96 @@
+/* whole page starts here */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.signup_pg_bg {
+    background-image: url(/signin_signup_srcs/Sign\ Up\ -\ CRM\ SIgnup_Plain.png);
+    background-size: 90%;
+    background-position: 150px -130px;
+    background-repeat: no-repeat;
+    height: 510px;
+}
+
+/* whole page ends here */
+/* left side of the page starts here */
+
+.signup_pg_signup_button {
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #0850F8;
+    color: white;
+    border: 2px solid #0850F8;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.signup_pg_form_container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.signup_pg_icons {
+    position: relative;
+    left: 35px;
+    top: 3px;
+    color: black;
+}
+
+.signup_pg_inputs {
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid rgb(181, 181, 181);
+}
+
+.signup_pg_left_txt {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.signup_pg_socials {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.signup_pg_social_icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi_bi_facebook, .bi_bi_twitter,
+.bi_bi_google, .bi_bi_linkedin {
+    border-radius: 50%;
+}
+
+.input_spacing {
+    margin: 20px 0px;
+}
+
+.signup_pg_social_links {
+    color: black;
+    position: relative;
+    top: 2px;
+}
