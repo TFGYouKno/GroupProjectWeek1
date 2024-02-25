@@ -4,7 +4,7 @@
 }
 
 body{
-   
+   background-color: white;
 }
 
 .d-grip{
@@ -26,3 +26,15 @@ body{
     justify-content: space-around;
     padding
 } */
+
+.card1{
+    background-color: blue;
+    color: white;
+}
+
+.credit{
+   align-self: center;
+    height: 12vw;
+    object-fit: cover;
+}
+
