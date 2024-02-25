@@ -1,0 +1,28 @@
+.site-footer{
+    background-color: blue;
+    color: white;
+}
+
+body{
+   
+}
+
+.d-grip{
+    padding: 2.5;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size:x-small;
+}
+
+/* .btn-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding
+} */
