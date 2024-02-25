@@ -12,7 +12,8 @@
     background-position: 0px -110px;
     background-repeat: no-repeat;
     height: 610px;
-}
+    height: 737px;
+} /*adjusted height to line up with bottom of page -HB */
 
 .signin_pg_main_grid_container {
     display: grid;
@@ -94,6 +95,7 @@ a {
     height: 40px;
     border-radius: 50px;
     border: 1px solid rgb(181, 181, 181);
+    padding-left: 35px; /*added to move cursor over from icons-HB*/
 }
 
 .signin_pg_signin_button {
