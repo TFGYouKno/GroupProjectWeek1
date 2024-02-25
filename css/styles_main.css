@@ -26,6 +26,21 @@ body{
     justify-content: space-around;
     padding
 } */
+.card2 {
+    height: 100%;
+  }
+  .card-img-top {
+    
+    width: 70px;
+    height: 70px;
+    object-fit:scale-down;
+    margin: auto;
+  }
+
+.card-container{
+    justify-content:space-evenly;
+}
+
 
 .card1{
     background-color:#0314FE;
@@ -34,10 +49,10 @@ body{
 
 .credit{
    align-self: center;
-    height: 12vw;
+    height: 14vw;
     object-fit: cover;
 }
-.path60{
-    block-size: ;
- }
 
+.card-custom {
+    width: 50%;
+  }
