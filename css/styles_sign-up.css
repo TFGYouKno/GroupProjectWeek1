@@ -12,7 +12,8 @@
     background-position: 150px -130px;
     background-repeat: no-repeat;
     height: 510px;
-}
+    height: 737px;
+} /*adjusted height to bring image inline with bottom of page */
 
 /* whole page ends here */
 /* left side of the page starts here */
@@ -55,6 +56,7 @@ a {
     height: 40px;
     border-radius: 50px;
     border: 1px solid rgb(181, 181, 181);
+    padding-left: 35px; /*added to move cursor over from icons- HB */
 }
 
 .signup_pg_left_txt {
