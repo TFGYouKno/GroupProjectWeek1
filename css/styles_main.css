@@ -20,6 +20,17 @@ body{
     font-size:x-small;
 }
 
+.bottom-text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size:x-small;
+    margin: 0 10px;
+}
+
+.focus{
+    border: none;
+}
 .card2 {
     height: 100%;
   }
@@ -55,6 +66,12 @@ body{
     object-fit: cover;
 }
 
+.header{
+    width: 40vw;
+     height: 50vw;
+     object-fit: cover;
+ }
+
 .card-custom {
     width: 70%;
     border: none;
@@ -70,14 +87,31 @@ body{
 }
 
 .btnChat {
+    border: solid blue;
     color: #0314FE;
+    font-weight:normal;
+}
+
+.btnChat2 {
+    color: #0314FE;
+    font-weight:normal;
+}
+.btnSign {
+    background-color: #0314FE;
+    color:white;
     font-weight: bold;
+    align-items: left;
 }
 
 .container-button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.container-button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
  .btnLearn{
     display: inline-block;
