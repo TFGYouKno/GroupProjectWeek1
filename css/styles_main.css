@@ -3,6 +3,9 @@
     color: white;
 }
 
+.nav-bar{
+    background-color: white !important;
+}
 body{
    background-color: white;
 }
@@ -25,7 +28,7 @@ body{
     flex-direction: row;
     justify-content:space-around;
     font-size:x-small;
-    margin: 0 10px;
+    padding: 0%;
 }
 
 .focus{
