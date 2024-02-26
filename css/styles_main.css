@@ -3,6 +3,9 @@
     color: white;
 }
 
+.nav-bar{
+    background-color: white !important;
+}
 body{
    background-color: white;
 }
@@ -20,17 +23,30 @@ body{
     font-size:x-small;
 }
 
-/* .btn-group{
+.bottom-text2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding
-} */
+    justify-content:space-around;
+    font-size:x-small;
+    padding: 0%;
+}
+
+.focus{
+    border: none;
+}
 .card2 {
     height: 100%;
   }
   .card-img-top {
     
+    width: 70px;
+    height: 70px;
+    object-fit:scale-down;
+    margin: auto;
+  }
+  .card-img-top2 {
+    border-radius: 50%;
+    border: solid 1px black;
     width: 70px;
     height: 70px;
     object-fit:scale-down;
@@ -53,6 +69,12 @@ body{
     object-fit: cover;
 }
 
+.header{
+    width: 40vw;
+     height: 50vw;
+     object-fit: cover;
+ }
+
 .card-custom {
     width: 70%;
     border: none;
@@ -68,14 +90,31 @@ body{
 }
 
 .btnChat {
+    border: solid blue;
     color: #0314FE;
+    font-weight:normal;
+}
+
+.btnChat2 {
+    color: #0314FE;
+    font-weight:normal;
+}
+.btnSign {
+    background-color: #0314FE;
+    color:white;
     font-weight: bold;
+    align-items: left;
 }
 
 .container-button{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.container-button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
  .btnLearn{
     display: inline-block;
